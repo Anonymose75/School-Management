@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gestion_inscr">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".upetudi"></activity>
+        <activity android:name=".modifiecours" />
+        <activity android:name=".inscrireetudiantcour" />
+        <activity android:name=".listcourinfo" />
+        <activity android:name=".listecours" />
+        <activity android:name=".infocours" />
+        <activity android:name=".supprimercours" />
+        <activity android:name=".inscriptioncours" />
+        <activity android:name=".gestioncours" />
+        <activity android:name=".listinfo" />
+        <activity android:name=".listes" />
+        <activity android:name=".supprimer" />
+        <activity android:name=".infoEtu" />
+        <activity android:name=".inscription" />
+        <activity android:name=".gestionEt" />
+        <activity android:name=".dash" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
